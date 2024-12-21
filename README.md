@@ -18,15 +18,7 @@ Clearly explain the steps required to install and configure necessary packages, 
 
 6) Then move into the server folder of the repository. (i.e. use `cd file/path/server`).
 
-7) In the server folder, run the following commands to install the necessary packages:
-- `npm install`
-- `npm install mongoose`
-- `npm install bcrypt`
-- `npm install validator`
-- `npm install js-cookie`
-- `npm install jsonwebtoken`
-- `npm install express-session`
-- `npm install jest`
+7) In the server folder, run the following command to install the necessary packages: `npm install`
 
 8) Now go to the client folder of the repository (i.e. use `cd file/path/client`).
 
@@ -78,17 +70,55 @@ Note: If you get an error stating server in use, return to step 4 and make sure 
 
 In the sections below, list and describe each contribution briefly.
 
-## Team Member 1 (Sandy Wu) Contribution
-- Added join/leave community functionality
-- Implemented sorting separated by communities joined and communities not joined on main page
-- Implemented post sorting by membership in community for search results page
-- Fixed upvote and downvote for posts, and the login return session
-- Applied CSS styling to the Welcome page
-
-## Team Member 2 (Ashley Wu) Contribution
+## Team Member 1 (Ashley Wu) Contribution
 - Created Welcome page with register/login/guest options
 - Added session cookie for maintaining login
 - Implemented user profile page with deletion options
 - Added upvotes for posts and use reputation changes
 - Ordered navbar from joined and then not joined communities
+- Defined schemas for models
+- Worked on post sorting (new, old, and active)
+- Fixed hover and click color changes for buttons
+- Worked on search function and sorting of search posts
+- Updated nav bar component to change when communities are added
+- Eliminated eslint warnings for best practices
+- Worked on listing of posts in different views
+- Updated post view to automatically render new comments added
+- Created components for the forms on the new comment, new community, and new post page views
+- Created components for tracking the clicking and hovering of buttons to change background colors
+- Created function for switching the content on the main page
+- Created function for updating the list of communities on the nav bar
+- Created a component for the search bar and returning relevant posts
+- Made components for the horizontal banner and nav bar
+- Created a component for updating the sorting of posts based on clicking the sorting buttons
+- Wrote a function for displaying timestamps relative to the current time
+- Wrote a function for dynamically updating the list of communities on the nav bar
+- Wrote functions added through event listeners to the sorting buttons on the home page and community page views
+- Wrote a function for displaying each post as specified and added a scrollbar
+- Wrote a function for updating the community page view elements
+- Wrote a class for saving each post in a data structure with multiple sublevels
+- Wrote functions for the words of searches in posts and their comments and displayed the search results
+- Wrote functions using the added class to create threading under posts in the post page view
+- Created forms for making new communities and new posts
+- Added CSS styling to the Create Post button to change color when hovering
+- Made the website logo and name clickable for returning to the home page view
+- Updated linkflair dropdown to allow for choosing no linkflair
+
+## Team Member 2 (Sandy Wu) Contribution
+- Added join/leave community functionality
+- Implemented sorting separated by communities joined and communities not joined on main page
+- Implemented post sorting by membership in community for search results page
+- Fixed upvote and downvote for posts, and the login return session
+- Applied CSS styling to the Welcome page
+- Created new post submission component
+- Defined server routes and modularized routes
+- Worked on new comment submission component
+- Worked on new community submission
+- Defined server routes for handling axios requests
+- Integrated link flair functionality and check for duality
+- Enhanced the design of the banner, navigation bar, create post section, and main view (including scroll bar adjustments).
+- Added a button to create link flair that updates the dropdown list immediately after selection.
+- Implemented functionality to allow users to choose between using a dropdown or typing their own for link flair
+- Changed input to text areas in the create post, create community, and add comment sections to enable users to write more extensive content
+- Corrected the active sorting feature so that it functions based on search results instead of just all posts
 
